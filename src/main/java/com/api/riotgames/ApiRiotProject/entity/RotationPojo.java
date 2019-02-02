@@ -1,10 +1,9 @@
-package com.api.riotgames.ApiRiotProject.pojoclass;
+package com.api.riotgames.ApiRiotProject.entity;
 
 import com.api.riotgames.ApiRiotProject.Service.ChampIdTranslate;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)

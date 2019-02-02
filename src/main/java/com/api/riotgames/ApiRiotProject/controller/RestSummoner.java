@@ -1,6 +1,6 @@
 package com.api.riotgames.ApiRiotProject.controller;
 
-import com.api.riotgames.ApiRiotProject.pojoclass.RotationPojo;
+import com.api.riotgames.ApiRiotProject.entity.RotationPojo;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,8 +11,8 @@ import java.io.IOException;
 import java.net.URL;
 
 @Controller
-@RequestMapping("/rotation")
-public class RestRotations {
+@RequestMapping("/summoner")
+public class RestSummoner {
 
     @GetMapping("/freeweek")
     public String test(Model model) throws IOException {
@@ -28,7 +28,6 @@ public class RestRotations {
             model.addAttribute("rotation", rotation);
 
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         return "show-fw";
