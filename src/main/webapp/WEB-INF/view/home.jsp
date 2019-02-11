@@ -28,7 +28,7 @@
 <div class="container">
 
     <form:form method="GET" action="summoner/profile"  class="form-inline">
-        <input name="userName" path="lil" class="form-control mr-sm-2" type="text" placeholder="Summoner" aria-label="Search"/>
+        <input name="userName" class="form-control mr-sm-2" type="text" placeholder="Summoner" aria-label="Search"/>
         <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Buscar</button>
     </form:form>
 

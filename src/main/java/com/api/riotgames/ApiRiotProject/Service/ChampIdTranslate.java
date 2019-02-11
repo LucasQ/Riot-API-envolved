@@ -145,6 +145,8 @@ public class ChampIdTranslate {
             case 141: name = "Kayn"; break;
             case 142: name = "Zoe"; break;
             case 145: name = "Kai'Sa"; break;
+            case 516: name = "Ornn"; break;
+            case 517: name = "Sylas"; break;
         }
 
         return name;

@@ -13,8 +13,17 @@
 <c:import url="navbar.jsp" />
 
 
-    <h1>${atribute}</h1>
+    <h1> nick: ${summoner.name}</h1>
 
+    <h1> level: ${summoner.summonerLevel}</h1>
+
+    <h1> summoner id: ${summoner.id} </h1>
+
+    <h1> account id: ${summoner.accountId}</h1>
+
+    <hr>
+
+    <h6> champion level: ${champMastery.get(0).championLevel}</h6>
 
 </body>
 </html>

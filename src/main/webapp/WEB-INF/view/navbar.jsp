@@ -17,14 +17,14 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-            <li class="nav-item">
+            <li id="prof">
                 <a class="nav-link" href="${pageContext.request.contextPath}/summoner/profile/lul">Profile <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
+            <li id="fw">
                 <a class="nav-link" href="freeweek">Free Week</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Live Game</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -32,6 +32,6 @@
         </ul>
     </div>
 </nav>
-
+<script language="JavaScript" src="/js/navbarHandle.js"></script>
 </body>
 </html>
